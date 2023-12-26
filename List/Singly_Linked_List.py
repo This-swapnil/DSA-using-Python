@@ -1,9 +1,6 @@
 # singly linked list
 
 
-from numpy import delete, dtype
-
-
 class Node:
     def __init__(self, item=None, next=None):
         self.item = item
