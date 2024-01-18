@@ -1,0 +1,39 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "window.autoDetectColorScheme": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "python.analysis.autoFormatStrings": true,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.formatOnCellExecution": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "terminal.integrated.inheritEnv": false,
+    "debug.terminal.clearBeforeReusing": true,
+    "terminal.integrated.confirmOnExit": "always",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "git.autofetch": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "python.analysis.completeFunctionParens": true,
+    "editor.minimap.enabled": false,
+    "window.titleBarStyle": "custom",
+    "window.openFilesInNewWindow": "default",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "terminal.integrated.accessibleViewFocusOnCommandExecution": false,
+    "terminal.integrated.copyOnSelection": true,
+    "workbench.settings.applyToAllProfiles": [
+        "terminal.integrated.sendKeybindingsToShell"
+    ],
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.shellIntegration.suggestEnabled": true,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "redhat.telemetry.enabled": true,
+    "workbench.colorTheme": "Monokai",
+    "python.analysis.addImport.exactMatchOnly": true
+}
