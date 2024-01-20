@@ -64,37 +64,3 @@ class BST:
             self.rpostorder(root.left, result)
             self.rpostorder(root.right, result)
             result.append(root.item)
-
-    def min_value(self, temp):
-        current = temp
-        while current.left is not None:
-            current = current.left
-        return current.item
-
-    def max_value(self, temp):
-        current = temp
-        while current.right is not None:
-            current = current.right
-        return current.item
-
-    def delete(self, data):
-        self.root = self.rdelete(self.root, data)
-
-    def rdelete(self, root, data):
-        if root is None:
-            return root
-        if data < root.item:
-            root.left = self.rdelete(root.left, data)
-        elif data > root.item:
-            root.right = self.rdelete(root.right, data)
-        else:
-            if root.left is None:
-                return root.right
-            elif root.right is None:
-                return root.left
-            root.item = self.min_value(root.right)  # replacing with successer
-            self.rdelete(root.right, root.item)
-        return root
-
-    def size(self):
-        return len(self.inorder())
